@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { getCategories } from "../services/apiFacade";
 import { Link } from "react-router-dom";
+import React from "react";
 
 export const Categories = () => {
   const [categories, setCategories] = useState<Array<string>>();

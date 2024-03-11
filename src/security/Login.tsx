@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "./AuthProvider";
 import { User } from "../services/authFacade";
+import React from "react";
 
 import "./login.css";
 

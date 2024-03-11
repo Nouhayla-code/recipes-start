@@ -1,5 +1,6 @@
 import { useAuth } from "./AuthProvider";
 import { NavLink, Link } from "react-router-dom";
+import React from "react";
 
 export default function AuthStatus() {
   const auth = useAuth();

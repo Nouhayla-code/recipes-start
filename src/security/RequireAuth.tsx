@@ -1,5 +1,6 @@
 import { useAuth } from "./AuthProvider";
 import { Navigate, useLocation } from "react-router-dom";
+import React from "react";
 
 type Props = {
   children: JSX.Element;

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getInfo, Info } from "./services/apiFacade";
+import React from "react";
 
 export default function Home() {
   const [info, setInfo] = useState<Info | null>(null);
@@ -27,7 +28,8 @@ export default function Home() {
             {info.reference}
           </p>
           <p>
-            <span style={{ fontWeight: "bold" }}>Data created:</span> {info.created}
+            <span style={{ fontWeight: "bold" }}>Data created:</span>{" "}
+            {info.created}
           </p>
           <p>{info.info}</p>
         </>
